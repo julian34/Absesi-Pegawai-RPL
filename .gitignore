@@ -1,1 +1,130 @@
-.vendor/
+# ============================================================================
+# Dependencies & Vendor
+# ============================================================================
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+yarn-lock.json
+pnpm-lock.yaml
+
+# ============================================================================
+# Environment Variables (Sensitive Data)
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.*.php
+.env.backup
+.env.production
+.env.test
+
+# ============================================================================
+# Build Artifacts
+# ============================================================================
+/public/build/
+/public/hot
+/public/fonts-manifest.dev.json
+/frontend/dist/
+/dist/
+/build/
+
+# ============================================================================
+# Laravel Cache & Storage
+# ============================================================================
+/bootstrap/cache/
+/storage/logs/
+/storage/pail/
+/storage/*.key
+/storage/app/private/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+
+# ============================================================================
+# Logs
+# ============================================================================
+*.log
+*.logs
+
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
+.idea/
+.vscode/
+.cursor/
+.zed/
+.nova/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ============================================================================
+# OS-Specific Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.nfs*
+
+# ============================================================================
+# Testing & Analysis
+# ============================================================================
+.phpunit.result.cache
+.phpactor.json
+auth.json
+_ide_helper.php
+.phpstan.neon.dist
+.php-cs-fixer.cache
+
+# ============================================================================
+# NPM & Yarn
+# ============================================================================
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================================================
+# Docker
+# ============================================================================
+docker-compose.override.yml
+.dockerignore
+
+# ============================================================================
+# Misc
+# ============================================================================
+.DS_Store
+Homestead.json
+Homestead.yaml
+/.vagrant
+/.env.*.php
+/.fleet
+/.idea
+/.vscode
+.env.dusk.local
+.env.dusk.testing
